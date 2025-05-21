@@ -10,3 +10,8 @@ Wac Azure Local Helper
 ``` Powershell
 echo WacAzLocalhelp; [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; $path=Join-Path $PWD 'RunHelp.ps1'; (New-Object Net.WebClient).DownloadFile('https://github.com/Louisjreeves/WacAzLocalhelp/raw/refs/heads/main/RunHelp.ps1', $path); & $path
 ```
+
+
+``` Powershell
+echo WacAzLocalhelp; [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; $path=Join-Path $PWD 'RunHelp.ps1'; (New-Object Net.WebClient).DownloadFile('https://github.com/Louisjreeves/WacAzLocalhelp/raw/refs/heads/main/RunHelp.ps1', $path); & $path
+```
